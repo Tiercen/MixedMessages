@@ -46,9 +46,9 @@ I will most likely use this function in multiple code blocks, just changing the 
 #### Arrays
 
 1. Adjectives
+    - Loving
     - Uplifting
     - Naughty
-    - Loving
     - Affirmation
 2. Actions
     - Sexual Actions
