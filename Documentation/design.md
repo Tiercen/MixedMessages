@@ -51,12 +51,19 @@ I will most likely need the following arrays
 - Uplifting
 - Naughty
 2. Nicknames
+<pre>
 - His
 - Hers
+</pre>
 3. Sexual Acts
 4. Exclamations
 - Example: Whoooaahhh!!!!
 5. Closings
+
+<pre>
+    This text will be indented.
+</pre>
+
 
 ### Message Templates
 
