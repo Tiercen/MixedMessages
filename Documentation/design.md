@@ -45,8 +45,6 @@ I will most likely use this function in multiple code blocks, just changing the 
 
 #### Arrays
 
-I will most likely need the following arrays
-
 1. Adjectives
     - Uplifting
     - Naughty
