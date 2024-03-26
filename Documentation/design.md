@@ -48,22 +48,15 @@ I will most likely use this function in multiple code blocks, just changing the 
 I will most likely need the following arrays
 
 1. Adjectives
-- Uplifting
-- Naughty
+    - Uplifting
+    - Naughty
 2. Nicknames
-<pre>
-- His
-- Hers
-</pre>
+    - His
+    - Hers
 3. Sexual Acts
 4. Exclamations
 - Example: Whoooaahhh!!!!
 5. Closings
-
-<pre>
-    This text will be indented.
-</pre>
-&nbsp;&nbsp;&nbsp;&nbsp;This text will be indented.
 
 
 ### Message Templates
