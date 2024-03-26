@@ -16,3 +16,7 @@ Prerequisites:
 - JavaScript
 - Git and GitHub
 - Command line
+
+# Detailed Documentation
+
+- [Design Documentation]{Documentation/design.md}
