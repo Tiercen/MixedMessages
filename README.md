@@ -19,4 +19,4 @@ Prerequisites:
 
 # Detailed Documentation
 
-- [Design Documentation]{Documentation/design.md}
+- [Design Documentation](Documentation/design.md)
