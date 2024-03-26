@@ -51,14 +51,16 @@ I will most likely use this function in multiple code blocks, just changing the 
     - Loving
     - Affirmation
 2. Actions
-    - Sexual Acts
-    - Affirmation Acts
+    - Sexual Actions
+    - Affirmation Actions
     - Wrap Up
+3. Nouns
+    - Person (Example: Wife, Woman, Partner)
 2. Nicknames
     - Theirs
     - Yours
 4. Erogenous Zones
-5. Additional Activity
+5. Additional Activities
 6. Greetings
     - Loving Greeting
     - Uplifting Greeting
@@ -96,10 +98,32 @@ I will most likely use this function in multiple code blocks, just changing the 
     1. Loving
         1. Select a greeting from the Loving Greeting array
         2. Select a nickname from the Nicknames_theirs array
+        3. Select two adjectives from the Loving Adjectives array
+        4. Select a Wrap Up from the Wrap Up Actions array
+        5. Select a Closing from the Closings array
+        6. Select a nickname from the Nicknames_yours array
     2. Uplifting
         1. Select a greeting from the Uplifting Greeting array
         2. Select a nickname from the Nicknames_theirs array
+        3. Select two adjectives from the Uplifting Adjectives array
+        4. Select a Noun from the Person Nouns array
+        5. Select a Closing from the Closings array
+        6. Select a nickname from the Nicknames_yours array
     3. Naughty
         1. Select a greeting from the Naughty Greeting array
         2. Select a nickname from the Nicknames_theirs array
-    4. Self Affirmation 
+        3. Select a Sexual Act from the Sexual Actions Actions array
+        4. Select a Erogenous Zone from the Erogenous Zone array
+        5. Select a Additional Activity from the Additional Activities Array
+        6. Select a Closing from the Closings array
+        7. Select a nickname from the Nicknames_yours array
+    4. Self Affirmation
+        1. Select a sub message template ("I am" or "I will")
+            1. "I am"
+                1. Select two Affirmations from the Affirmations Adjectives array
+                2. Select a Closing from the Closings array
+                3. Select a nickname from the Nicknames_theirs array
+            2. "I will"
+                1. Select two Affirmation Actions from the Affirmation Actions Actions array
+                2. Select a Closing from the Closings array
+                3. Select a nickname from the Nicknames_theirs array
