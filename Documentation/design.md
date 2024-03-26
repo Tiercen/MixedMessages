@@ -7,6 +7,8 @@ My goal with this project is to create an **JavaScript** console app that runs o
 
 ### JavaScript
 
+#### Functions
+
 The JavaScript I am writing will randomly choose from **four** message categories.
 
 1. Loving
@@ -38,3 +40,23 @@ function getRandomNumber() {
 }
 
 ```
+
+I will most likely use this function in multiple code blocks, just changing the number range to allow for selections within larger arrays.
+
+### Arrays
+
+I will most likely need the following arrays
+
+1. Adjectives
+- Uplifting
+- Naughty
+2. Nicknames
+- His
+- Hers
+3. Sexual Acts
+4. Exclamations
+- Example: Whoooaahhh!!!!
+5. Closings
+
+### Message Templates
+
