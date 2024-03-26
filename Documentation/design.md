@@ -43,21 +43,65 @@ function getRandomNumber() {
 
 I will most likely use this function in multiple code blocks, just changing the number range to allow for selections within larger arrays.
 
-### Arrays
+#### Arrays
 
 I will most likely need the following arrays
 
 1. Adjectives
     - Uplifting
     - Naughty
+    - Loving
+    - Affirmation
+2. Actions
+    - Sexual Acts
+    - Affirmation Acts
+    - Wrap Up
 2. Nicknames
-    - His
-    - Hers
-3. Sexual Acts
-4. Exclamations
-- Example: Whoooaahhh!!!!
-5. Closings
+    - Theirs
+    - Yours
+4. Erogenous Zones
+5. Additional Activity
+6. Greetings
+    - Loving Greeting
+    - Uplifting Greeting
+    - Naughty Greeting
+    - Example: Whoooaahhh!!!!
+7. Closings
 
+#### Message Templates
 
-### Message Templates
+##### Loving
 
+    `${LovingGreeting} ${Nickname_theirs}, You are ${Loving1}, and ${Loving2}, and I ${wrapup} you. -${Closing}, @{Nickname_yours}.`
+    
+##### Uplifting
+
+    `${UpliftingGreeting} ${Nickname_theirs}, You are ${Uplifting1}, ${Uplifting2} ${noun}, in the verse. ${Closing}, @{Nickname_yours}.`
+
+##### Naughty
+
+    `${NaughtyGreeting} ${Nickname_theirs}, I want ${SexualAction} your ${ErogenousZone} and ${additionalactivity}. -${Closing}, @{Nickname_yours}.`
+
+##### Self Affirmations
+
+    `I am ${Affirmation1}, and ${Affirmation2}. -${Closing}, @{Nickname_theirs}.`
+
+    OR
+
+    `I will ${AffirmationAction1}, and ${AffirmationAction2}. -${Closing}, @{Nickname_theirs}.`
+
+#### Logic
+
+1. Select a message template
+    a. Uses a random number function to select a value between 0-3.
+2. Message Templates
+    a. Loving
+        i. Select a greeting from the Loving Greeting array
+        ii. Select a nickname from the Nicknames_theirs array
+    b. Uplifting
+        i. Select a greeting from the Uplifting Greeting array
+        ii. Select a nickname from the Nicknames_theirs array
+    c. Naughty
+        i. Select a greeting from the Naughty Greeting array
+        ii. Select a nickname from the Nicknames_theirs array
+    d. Self Affirmation 
