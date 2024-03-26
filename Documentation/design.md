@@ -63,6 +63,7 @@ I will most likely need the following arrays
 <pre>
     This text will be indented.
 </pre>
+&nbsp;&nbsp;&nbsp;&nbsp;This text will be indented.
 
 
 ### Message Templates
