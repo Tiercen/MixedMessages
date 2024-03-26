@@ -93,15 +93,15 @@ I will most likely need the following arrays
 #### Logic
 
 1. Select a message template
-    a. Uses a random number function to select a value between 0-3.
+    1. Uses a random number function to select a value between 0-3.
 2. Message Templates
-    a. Loving
-        i. Select a greeting from the Loving Greeting array
-        ii. Select a nickname from the Nicknames_theirs array
-    b. Uplifting
-        i. Select a greeting from the Uplifting Greeting array
-        ii. Select a nickname from the Nicknames_theirs array
-    c. Naughty
-        i. Select a greeting from the Naughty Greeting array
-        ii. Select a nickname from the Nicknames_theirs array
-    d. Self Affirmation 
+    1. Loving
+        1. Select a greeting from the Loving Greeting array
+        2. Select a nickname from the Nicknames_theirs array
+    2. Uplifting
+        1. Select a greeting from the Uplifting Greeting array
+        2. Select a nickname from the Nicknames_theirs array
+    3. Naughty
+        1. Select a greeting from the Naughty Greeting array
+        2. Select a nickname from the Nicknames_theirs array
+    4. Self Affirmation 
