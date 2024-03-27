@@ -50,3 +50,12 @@ let affirmationAdjOne = "";
 let affirmationAdjTwo = "";
 let affirmationActionOne = "";
 let affirmationActionTwo = "";
+let closing = "";
+let naughtyClosing = "";
+
+//Message Templates
+const lovingMessage = `${greeting} ${nickname_Theirs}, You are ${Loving1}, and ${Loving2}, and I ${wrap_up} you. -${closing}, ${nickname_Yours}.`;
+const upliftingMessage = `${greeting} ${nickname_Theirs}, You are ${upliftingAdjOne}, ${upliftingAdjTwo} ${noun}, in the verse. ${closing}, ${nickname_Yours}.`;
+const naughtyMessage = `${greeting} ${nickname_Theirs}, I want ${sexualAction} your ${erogenousZone} and ${additionalActivity}. -${naughtyClosing}, ${nickname_Yours}.`;
+const selfAffirmationOne = `I am ${affirmationAdjOne}, and ${affirmationAdjTwo}. -${closing}, ${nickname_Theirs}.`;
+const selfAffirmationTwo = `I will ${affirmationActionOne}, and ${affirmationActionTwo}. -${closing}, ${nickname_Theirs}.`

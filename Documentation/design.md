@@ -74,23 +74,23 @@ I will most likely use this function in multiple code blocks, just changing the 
 
 ##### Loving
 
-    `${Greeting} ${Nickname_theirs}, You are ${Loving1}, and ${Loving2}, and I ${wrapup} you. -${Closing}, @{Nickname_yours}.`
+    const lovingMessage = `${greeting} ${nickname_Theirs}, You are ${Loving1}, and ${Loving2}, and I ${wrap_up} you. -${closing}, ${nickname_Yours}.`;
     
 ##### Uplifting
 
-    `${Greeting} ${Nickname_theirs}, You are ${Uplifting1}, ${Uplifting2} ${noun}, in the verse. ${Closing}, @{Nickname_yours}.`
+    const upliftingMessage = `${greeting} ${nickname_Theirs}, You are ${upliftingAdjOne}, ${upliftingAdjTwo} ${noun}, in the verse. ${closing}, ${nickname_Yours}.`;
 
 ##### Naughty
 
-    `${Greeting} ${Nickname_theirs}, I want ${SexualAction} your ${ErogenousZone} and ${additionalactivity}. -${naughtyClosing}, @{Nickname_yours}.`
+    const naughtyMessage = `${greeting} ${nickname_Theirs}, I want ${sexualAction} your ${erogenousZone} and ${additionalActivity}. -${naughtyClosing}, ${nickname_Yours}.`;
 
 ##### Self Affirmations
 
-    `I am ${Affirmation1}, and ${Affirmation2}. -${Closing}, @{Nickname_theirs}.`
+    const selfAffirmationOne = `I am ${affirmationAdjOne}, and ${affirmationAdjTwo}. -${closing}, ${nickname_Theirs}.`;
 
     OR
 
-    `I will ${AffirmationAction1}, and ${AffirmationAction2}. -${Closing}, @{Nickname_theirs}.`
+    const selfAffirmationTwo = `I will ${affirmationActionOne}, and ${affirmationActionTwo}. -${closing}, ${nickname_Theirs}.`
 
 #### Logic
 
