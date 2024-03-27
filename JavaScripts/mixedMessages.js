@@ -33,3 +33,20 @@ const greetings = ["Hello", "Hi", "Greetings", "Heya", "Good day", "Hey", "Howdy
 const closings = ["Best regards", "Sincerely", "Yours truly", "Kind regards", "With love", "Yours sincerely", "Best wishes", "Warm regards", "With appreciation", "Respectfully yours", "Forever Yours", "May the Force be with You"];
 const naughtyClosings = ["With Lust", "Hornily Yours", "Breathlessly Waiting", "Horny as FUCK", "Looking Forward to Later", "Till Tonight", "Lustily", "Hungrily Yours"]
 
+//Variables
+let greeting = "";
+let nickname_Theirs = "";
+let nickname_Yours = "";
+let lovingAdjOne = "";
+let lovingAdjTwo = "";
+let wrap_up = "";
+let upliftingAdjOne = "";
+let upliftingAdjTwo = "";
+let noun = "";
+let sexualAction = "";
+let erogenousZone = "";
+let additionalActivity = "";
+let affirmationAdjOne = "";
+let affirmationAdjTwo = "";
+let affirmationActionOne = "";
+let affirmationActionTwo = "";

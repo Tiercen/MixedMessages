@@ -74,15 +74,15 @@ I will most likely use this function in multiple code blocks, just changing the 
 
 ##### Loving
 
-    `${LovingGreeting} ${Nickname_theirs}, You are ${Loving1}, and ${Loving2}, and I ${wrapup} you. -${Closing}, @{Nickname_yours}.`
+    `${Greeting} ${Nickname_theirs}, You are ${Loving1}, and ${Loving2}, and I ${wrapup} you. -${Closing}, @{Nickname_yours}.`
     
 ##### Uplifting
 
-    `${UpliftingGreeting} ${Nickname_theirs}, You are ${Uplifting1}, ${Uplifting2} ${noun}, in the verse. ${Closing}, @{Nickname_yours}.`
+    `${Greeting} ${Nickname_theirs}, You are ${Uplifting1}, ${Uplifting2} ${noun}, in the verse. ${Closing}, @{Nickname_yours}.`
 
 ##### Naughty
 
-    `${NaughtyGreeting} ${Nickname_theirs}, I want ${SexualAction} your ${ErogenousZone} and ${additionalactivity}. -${Closing}, @{Nickname_yours}.`
+    `${Greeting} ${Nickname_theirs}, I want ${SexualAction} your ${ErogenousZone} and ${additionalactivity}. -${naughtyClosing}, @{Nickname_yours}.`
 
 ##### Self Affirmations
 
