@@ -11,3 +11,25 @@ const affirmationAdj = ["amazing", "smart", "beautiful", "spectacular", "awesome
 //Actions
 const sexualActions = ["caress", "touch", "embrace", "cuddle", "nuzzle", "lick", "bite", "kiss", "rub", "stroke", "fondle", "hug", "snuggle", "squeeze", "pet", "smooch", "suck"];
 const affirmationActions = ["change the world", "look good", "make a difference", "shine bright", "be confident", "stay positive", "inspire others", "be myself", "stay strong", "keep going"];
+const wrapUp = ["love", "believe in", "adore", "cherish", "admire", "appreciate", "value", "respect", "treasure", "honor"];
+
+//Nouns
+const nounsPeople = ["wife", "partner", "spouse", "companion", "mate", "lover", "significant other", "better half", "other half", "soulmate"];
+
+//Nicknames
+const nicknamesTheirs = ["Scrappu", "Sexiness", "Sweetness", "Baby Girl", "Love", "Colie", "Babe", "My Love", "Horny Lawyer"];
+const nicknamesYours = ["Daddy", "Your Bear", "Perry", "The Juggernaut", "Your Biggest Fan"];
+
+//Erogenous Zones
+const erogenousZones = ["pussy", "tits", "ass", "bits", "fanny", "bajingo", "Australian lips", "Vajayjay", "Booty", "titties", "honkers", "melons", "boobs", "milkshakes"];
+
+//Additional Activities
+const additionalActivities = ["scream with pleasure", "cum all night long", "make sweet love to you", "feel you shudder with ecstasy", "feel you quiver under my touch", "beg you to let me please you", "whisper sweet nothings into your ear", "listen to the stifled moans escaping between shuddered breaths"];
+
+//Greetings
+const greetings = ["Hello", "Hi", "Greetings", "Heya", "Good day", "Hey", "Howdy", "Hiya", "Yo", "Sup", "What's up", "Whoooaahhh!", "こんにちは (Konnichiwa)", "Ciao", "Hallo", "Bonjour", "Привет (Privet)", "مرحبا (Marhaba)"];
+
+//Closings
+const closings = ["Best regards", "Sincerely", "Yours truly", "Kind regards", "With love", "Yours sincerely", "Best wishes", "Warm regards", "With appreciation", "Respectfully yours", "Forever Yours", "May the Force be with You"];
+const naughtyClosings = ["With Lust", "Hornily Yours", "Breathlessly Waiting", "Horny as FUCK", "Looking Forward to Later", "Till Tonight", "Lustily", "Hungrily Yours"]
+
