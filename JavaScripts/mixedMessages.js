@@ -1,5 +1,9 @@
 //This is a JavaScript was created to complete the Mixed Messages assignment from CodeCademy.com
 
+// Get references to the button and paragraph element
+const generateButton = document.getElementById("generateButton");
+const messageElement = document.getElementById("message");
+
 //Arrays
 
 //Adjectives
@@ -205,21 +209,29 @@ function assignRandomValues(mixedMessagesArr) {
         switch(messageSelect) {
             case 0: // Selects a loving message to display to the console
                 console.log(lovingMessage);
+                lovingMessage.textContent = message; // Set the generated message content to the paragraph element
                 break;
             case 1: // Selects a uplifting message to display to the console
                 console.log(upliftingMessage);
+                upliftingMessage.textContent = message; // Set the generated message content to the paragraph element
                 break;
             case 2: // Selects a naughty message to display to the console
                 console.log(naughtyMessage);
+                naughtyMessage.textContent = message; // Set the generated message content to the paragraph element
                 break;
             case 3: // Selects a I am self affirmation message to display to the console
                 console.log(selfAffirmationOne);
+                selfAffirmationOne.textContent = message; // Set the generated message content to the paragraph element
                 break;
             case 4: // Selects a I will self affirmation message to display to the console
                 console.log(selfAffirmationTwo);
+                selfAffirmationTwo.textContent = message; // Set the generated message content to the paragraph element
                 break;
         };
 }
+
+    // Add event listener to the button for click event
+    generateButton.addEventListener("click", generateMessage);
 
 // Call the function with your array of arrays
 assignRandomValues(mixedMessagesArr);
