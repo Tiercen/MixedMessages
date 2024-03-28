@@ -72,21 +72,23 @@ I will most likely use this function in multiple code blocks, just changing the 
 
 ##### List of Arrays
 
->lovingAdj
->upliftingAdj
->naughtyAdj
->affirmationAdj
->sexualActions
->affirmationActions
->wrapUp
->nounsPeople
->nicknamesTheirs
->nicknamesYours
->erogenousZones
->additionalActivities
->greetings
->closings 
->naughtyClosings
+```
+lovingAdj
+upliftingAdj
+naughtyAdj
+affirmationAdj
+sexualActions
+affirmationActions
+wrapUp
+nounsPeople
+nicknamesTheirs
+nicknamesYours
+erogenousZones
+additionalActivities
+greetings
+closings 
+naughtyClosings
+```
 
 #### Variables
 
