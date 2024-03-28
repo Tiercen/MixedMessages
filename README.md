@@ -20,3 +20,7 @@ Prerequisites:
 # Detailed Documentation
 
 - [Design Documentation](Documentation/design.md)
+
+# Codecademy WorkSpace
+
+[mixedMessages.js](https://www.codecademy.com/workspaces/660588b0b846a99dc687fa86)
