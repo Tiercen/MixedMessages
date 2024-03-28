@@ -56,19 +56,21 @@ I will most likely use this function in multiple code blocks, just changing the 
     - Wrap Up
 3. Nouns
     - Person (Example: Wife, Woman, Partner)
-2. Nicknames
+4. Nicknames
     - Theirs
         - Normal
         - Naughty
     - Yours
         - Normal
         - Naughty
-4. Erogenous Zones
-5. Additional Activities
-6. Greetings
+5. Names
+    - Theirs
+6. Erogenous Zones
+7. Additional Activities
+8. Greetings
     - various ways to greet some one 
     - ```const greetings = ["Hello", "Hi", "Greetings", "Heya", "Good day", "Hey", "Howdy", "Hiya", "Yo", "Sup", "What's up", "Whoooaahhh!", "こんにちは (Konnichiwa)", "Ciao", "Hallo", "Bonjour", "Привет (Privet)", "مرحبا (Marhaba)"];```
-7. Closings
+9. Closings
     - Normal
         - ```const closings = ["Best regards", "Sincerely", "Yours truly", "Kind regards", "With love", "Yours sincerely", "Best wishes", "Warm regards", "With appreciation", "Respectfully yours", "Forever Yours", "May the Force be with You"];```
     - Naughty
@@ -94,6 +96,7 @@ closings
 naughtyClosings
 naughtyNickNamesTheirs
 naughtyNickNamesYours
+theirNames
 ```
 
 #### Variables

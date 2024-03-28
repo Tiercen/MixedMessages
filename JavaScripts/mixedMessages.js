@@ -16,11 +16,12 @@ const wrapUp = ["love", "believe in", "adore", "cherish", "admire", "appreciate"
 //Nouns
 const nounsPeople = ["wife", "partner", "spouse", "companion", "mate", "lover", "significant other", "better half", "other half", "soulmate"];
 
-//Nicknames
+//Names & Nicknames
 const nicknamesTheirs = ["Scrappu", "Sexiness", "Sweetness", "Love", "Colie", "Babe", "My Love"];
 const nicknamesYours = ["Your Bear", "Perry", "Your Biggest Fan"];
 const naughtyNickNamesTheirs = ["Baby Girl", "Sexiness", "Horny Lawyer"];
 const naughtyNickNamesYours = ["Daddy", "The Juggernaut"];
+const theirNames = ["Nicole Perry", 'Cole Perry', "Colie"]
 
 //Erogenous Zones
 const erogenousZones = ["trouble", "pussy", "tits", "ass", "bits", "fanny", "bajingo", "Australian lips", "Vajayjay", "Booty", "titties", "honkers", "melons", "boobs", "milkshakes"];
@@ -53,7 +54,8 @@ const mixedMessagesArr = [
     closings, // Index 13
     naughtyClosings, // Index 14
     naughtyNickNamesTheirs, // Index 15
-    naughtyNickNamesYours // Index 16
+    naughtyNickNamesYours, // Index 16
+    theirNames // Index17
 ];
   
 //Variables
@@ -62,6 +64,7 @@ let nickname_Theirs = "";
 let nickname_Yours = "";
 let naughtyNickNames_Theirs = ""
 let naughtyNickNames_Yours = ""
+let theirName = ""
 let lovingAdjOne = "";
 let lovingAdjTwo = "";
 let naughtyAdjOne = "";
@@ -176,19 +179,23 @@ function assignRandomValues(mixedMessagesArr) {
                 naughtyNickNames_Yours = arr[randomIndex1];
                 console.log(`naughtyNicknamesYours Message: ${naughtyNickNames_Yours}`);
                 break;
+            case 17: // Assigns one random theirNames message
+                theirName = arr[randomIndex1];
+                console.log(`theirName Message: ${theirName}`);
+                break;
         }
     });
         lovingMessage = `${greeting} ${nickname_Theirs}, You are ${lovingAdjOne}, and ${lovingAdjTwo}, and I ${wrap_up} you. -${closing}, ${nickname_Yours}.`;
         upliftingMessage = `${greeting} ${nickname_Theirs}, You are the most ${upliftingAdjOne} and ${upliftingAdjTwo} ${noun}, in the verse. ${closing}, ${nickname_Yours}.`;
         naughtyMessage = `${greeting} ${naughtyNickNames_Theirs}, I want ${sexualAction} your ${erogenousZone} and ${additionalActivity}. -${naughtyClosing}, ${naughtyNickNames_Yours}.`;
-        selfAffirmationOne = `I am ${affirmationAdjOne}, and ${affirmationAdjTwo}. -${closing}, ${nickname_Theirs}.`;
-        selfAffirmationTwo = `I will ${affirmationActionOne}, and ${affirmationActionTwo}. -${closing}, ${nickname_Theirs}.`;
+        selfAffirmationOne = `I am ${affirmationAdjOne}, and ${affirmationAdjTwo}. -${closing}, ${theirName}.`;
+        selfAffirmationTwo = `I will ${affirmationActionOne}, and ${affirmationActionTwo}. -${closing}, ${theirName}.`;
 
         console.log(`Loving Message: ${greeting} ${nickname_Theirs}, You are ${lovingAdjOne}, and ${lovingAdjTwo}, and I ${wrap_up} you. -${closing}, ${nickname_Yours}.`);
         console.log(`Uplifting Message: ${greeting} ${nickname_Theirs}, You are the most ${upliftingAdjOne} and ${upliftingAdjTwo} ${noun}, in the verse. ${closing}, ${nickname_Yours}.`);
         console.log(`Naughty Message: ${greeting} ${naughtyNickNames_Theirs}, I want ${sexualAction} your ${erogenousZone} and ${additionalActivity}. -${naughtyClosing}, ${naughtyNickNames_Yours}.`);
-        console.log(`Affirmation Message (I am): I am ${affirmationAdjOne}, and ${affirmationAdjTwo}. -${closing}, ${nickname_Theirs}.`);
-        console.log(`Affirmation Message (I will): I will ${affirmationActionOne}, and ${affirmationActionTwo}. -${closing}, ${nickname_Theirs}.`);
+        console.log(`Affirmation Message (I am): I am ${affirmationAdjOne}, and ${affirmationAdjTwo}. -${closing}, ${theirNames}.`);
+        console.log(`Affirmation Message (I will): I will ${affirmationActionOne}, and ${affirmationActionTwo}. -${closing}, ${theirName}.`);
 
         console.log(lovingMessage);
         console.log(upliftingMessage);
