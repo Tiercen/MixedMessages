@@ -70,6 +70,48 @@ I will most likely use this function in multiple code blocks, just changing the 
     - Naughty
         - ```const naughtyClosings = ["With Lust", "Hornily Yours", "Breathlessly Waiting", "Horny as FUCK", "Looking Forward to Later", "Till Tonight", "Lustily", "Hungrily Yours"]```
 
+##### List of Arrays
+
+>lovingAdj
+>upliftingAdj
+>naughtyAdj
+>affirmationAdj
+>sexualActions
+>affirmationActions
+>wrapUp
+>nounsPeople
+>nicknamesTheirs
+>nicknamesYours
+>erogenousZones
+>additionalActivities
+>greetings
+>closings 
+>naughtyClosings
+
+#### Variables
+
+```js
+let greeting = "";
+let nickname_Theirs = "";
+let nickname_Yours = "";
+let lovingAdjOne = "";
+let lovingAdjTwo = "";
+let wrap_up = "";
+let upliftingAdjOne = "";
+let upliftingAdjTwo = "";
+let noun = "";
+let sexualAction = "";
+let erogenousZone = "";
+let additionalActivity = "";
+let affirmationAdjOne = "";
+let affirmationAdjTwo = "";
+let affirmationActionOne = "";
+let affirmationActionTwo = "";
+let closing = "";
+let naughtyClosing = "";
+let wantNaughty = true;
+```
+
 #### Message Templates
 
 ##### Loving
