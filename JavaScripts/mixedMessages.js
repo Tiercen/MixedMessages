@@ -21,7 +21,7 @@ const nicknamesTheirs = ["Scrappu", "Sexiness", "Sweetness", "Baby Girl", "Love"
 const nicknamesYours = ["Daddy", "Your Bear", "Perry", "The Juggernaut", "Your Biggest Fan"];
 
 //Erogenous Zones
-const erogenousZones = ["pussy", "tits", "ass", "bits", "fanny", "bajingo", "Australian lips", "Vajayjay", "Booty", "titties", "honkers", "melons", "boobs", "milkshakes"];
+const erogenousZones = ["trouble", "pussy", "tits", "ass", "bits", "fanny", "bajingo", "Australian lips", "Vajayjay", "Booty", "titties", "honkers", "melons", "boobs", "milkshakes"];
 
 //Additional Activities
 const additionalActivities = ["scream with pleasure", "cum all night long", "make sweet love to you", "feel you shudder with ecstasy", "feel you quiver under my touch", "beg you to let me please you", "whisper sweet nothings into your ear", "listen to the stifled moans escaping between shuddered breaths"];
@@ -52,6 +52,7 @@ let affirmationActionOne = "";
 let affirmationActionTwo = "";
 let closing = "";
 let naughtyClosing = "";
+let wantNaughty = true;
 
 //Message Templates
 const lovingMessage = `${greeting} ${nickname_Theirs}, You are ${Loving1}, and ${Loving2}, and I ${wrap_up} you. -${closing}, ${nickname_Yours}.`;
