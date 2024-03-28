@@ -7,7 +7,7 @@ My goal with this project is to create an **JavaScript** console app that runs o
 
 ### JavaScript
 
-#### Functions
+#### Design Outline
 
 The JavaScript I am writing will randomly choose from **four** message categories.
 
