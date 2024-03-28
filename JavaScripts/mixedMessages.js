@@ -4,6 +4,9 @@
 const generateButton = document.getElementById("generateButton");
 const messageElement = document.getElementById("message");
 
+// Add event listener to the button for click event
+generateButton.addEventListener("click", assignRandomValues);
+
 //Arrays
 
 //Adjectives
@@ -229,9 +232,6 @@ function assignRandomValues(mixedMessagesArr) {
                 break;
         };
 }
-
-    // Add event listener to the button for click event
-    generateButton.addEventListener("click", generateMessage);
 
 // Call the function with your array of arrays
 assignRandomValues(mixedMessagesArr);
