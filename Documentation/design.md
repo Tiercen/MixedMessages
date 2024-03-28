@@ -58,7 +58,11 @@ I will most likely use this function in multiple code blocks, just changing the 
     - Person (Example: Wife, Woman, Partner)
 2. Nicknames
     - Theirs
+        - Normal
+        - Naughty
     - Yours
+        - Normal
+        - Naughty
 4. Erogenous Zones
 5. Additional Activities
 6. Greetings
@@ -88,6 +92,8 @@ additionalActivities
 greetings
 closings 
 naughtyClosings
+naughtyNickNamesTheirs
+naughtyNickNamesYours
 ```
 
 #### Variables
@@ -96,6 +102,8 @@ naughtyClosings
 let greeting = "";
 let nickname_Theirs = "";
 let nickname_Yours = "";
+let naughtyNickNames_Theirs = ""
+let naughtyNickNames_Yours = ""
 let lovingAdjOne = "";
 let lovingAdjTwo = "";
 let wrap_up = "";
@@ -122,19 +130,19 @@ let wantNaughty = true;
 ```
 ##### Uplifting
 ```js
-    const upliftingMessage = `${greeting} ${nickname_Theirs}, You are ${upliftingAdjOne}, ${upliftingAdjTwo} ${noun}, in the verse. ${closing}, ${nickname_Yours}.`;
+    let upliftingMessage = `${greeting} ${nickname_Theirs}, You are the most ${upliftingAdjOne} and ${upliftingAdjTwo} ${noun}, in the verse. ${closing}, ${nickname_Yours}.`;
 ```
 ##### Naughty
 ```js
-    const naughtyMessage = `${greeting} ${nickname_Theirs}, I want ${sexualAction} your ${erogenousZone} and ${additionalActivity}. -${naughtyClosing}, ${nickname_Yours}.`;
+    let naughtyMessage = `${greeting} ${naughtyNickNames_Theirs}, I want ${sexualAction} your ${erogenousZone} and ${additionalActivity}. -${naughtyClosing}, ${naughtyNickNames_Yours}.`;
 ```
 ##### Self Affirmations
 ```js
-    const selfAffirmationOne = `I am ${affirmationAdjOne}, and ${affirmationAdjTwo}. -${closing}, ${nickname_Theirs}.`;
+    let selfAffirmationOne = `I am ${affirmationAdjOne}, and ${affirmationAdjTwo}. -${closing}, ${nickname_Theirs}.`;
 ```
     OR
 ```js
-    const selfAffirmationTwo = `I will ${affirmationActionOne}, and ${affirmationActionTwo}. -${closing}, ${nickname_Theirs}.`
+    let selfAffirmationTwo = `I will ${affirmationActionOne}, and ${affirmationActionTwo}. -${closing}, ${nickname_Theirs}.`
 ```
 #### Logic
 
