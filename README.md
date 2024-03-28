@@ -23,4 +23,4 @@ Prerequisites:
 
 # Codecademy WorkSpace
 
-[mixedMessages.js](https://www.codecademy.com/workspaces/660588b0b846a99dc687fa86)
+- [mixedMessages.js](https://www.codecademy.com/workspaces/660588b0b846a99dc687fa86)
