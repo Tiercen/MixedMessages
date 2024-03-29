@@ -91,12 +91,6 @@ let naughtyMessage = "";
 let selfAffirmationOne = "";
 let selfAffirmationTwo = "";
 
-                  // Get references to the button and paragraph element
-                  let generateButton = document.getElementById('generateButton');
-                  // Add event listener to the button for click event
-                  generateButton.addEventListener("click", assignRandomValues);
-                  let messageElement = document.getElementById("message");
-
 //Functions
 
 //Message Selection by random number
@@ -111,6 +105,12 @@ function messageSelection() {
  *
  */
 function assignRandomValues(mixedMessagesArr) {
+
+                      // Get references to the button and paragraph element
+                      let generateButton = document.getElementById('generateButton');
+                      // Add event listener to the button for click event
+                      generateButton.addEventListener("click", assignRandomValues);
+                      let messageElement = document.getElementById("message");
       
     mixedMessagesArr.forEach((arr, index) => {
         let randomIndex1 = Math.floor(Math.random() * arr.length);
