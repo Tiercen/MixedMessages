@@ -234,4 +234,4 @@ function assignRandomValues(mixedMessagesArr) {
 }
 
 // Call the function with your array of arrays
-assignRandomValues(mixedMessagesArr);
+// assignRandomValues(mixedMessagesArr);
