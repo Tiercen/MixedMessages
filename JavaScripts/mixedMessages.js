@@ -200,37 +200,37 @@ function assignRandomValues(mixedMessagesArr) {
         selfAffirmationOne = `I am ${affirmationAdjOne}, and ${affirmationAdjTwo}. -${closing}, ${theirName}.`;
         selfAffirmationTwo = `I will ${affirmationActionOne}, and ${affirmationActionTwo}. -${closing}, ${theirName}.`;
 
+                  // Get references to the button and paragraph element
+                  let generateButton = document.getElementById('generateButton');
+                  // Add event listener to the button for click event
+                  generateButton.addEventListener("click", assignRandomValues);
+                  let messageElement = document.getElementById("message");
+
         // call the messageSelection Function to choose which to display
         messageSelect = messageSelection();
         // console.log(messageSelect);
         switch(messageSelect) {
             case 0: // Selects a loving message to display to the console
-                console.log(lovingMessage);
+                // console.log(lovingMessage);
                 messageElement.textContent = lovingMessage; // Set the generated message content to the paragraph element
                 break;
             case 1: // Selects a uplifting message to display to the console
-                console.log(upliftingMessage);
+                // console.log(upliftingMessage);
                 messageElement.textContent = upliftingMessage; // Set the generated message content to the paragraph element
                 break;
             case 2: // Selects a naughty message to display to the console
-                console.log(naughtyMessage);
+                // console.log(naughtyMessage);
                 messageElement.textContent = naughtyMessage; // Set the generated message content to the paragraph element
                 break;
             case 3: // Selects a I am self affirmation message to display to the console
-                console.log(selfAffirmationOne);
+                // console.log(selfAffirmationOne);
                 messageElement.textContent = selfAffirmationOne; // Set the generated message content to the paragraph element
                 break;
             case 4: // Selects a I will self affirmation message to display to the console
-                console.log(selfAffirmationTwo);
+                // console.log(selfAffirmationTwo);
                 messageElement.textContent = selfAffirmationTwo; // Set the generated message content to the paragraph element
                 break;
         };
-
-          // Get references to the button and paragraph element
-        let generateButton = document.getElementById('generateButton');
-        // Add event listener to the button for click event
-        generateButton.addEventListener("click", assignRandomValues);
-        const messageElement = document.getElementById("message");
 }
 
 // Call the function with your array of arrays
