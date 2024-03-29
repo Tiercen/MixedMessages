@@ -1,5 +1,5 @@
 //This is a JavaScript was created to complete the Mixed Messages assignment from CodeCademy.com
-
+document.addEventListener('DOMContentLoaded', (event) => {
 //Arrays
 
 //Adjectives
@@ -232,6 +232,6 @@ function assignRandomValues(mixedMessagesArr) {
                 break;
         };
 }
-
+}
 // Call the function with your array of arrays
 // assignRandomValues(mixedMessagesArr);
