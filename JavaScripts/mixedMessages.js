@@ -1,5 +1,11 @@
 //This is a JavaScript was created to complete the Mixed Messages assignment from CodeCademy.com
 
+                      // Get references to the button and paragraph element
+                      document.getElementById('generateButton').addEventListener('click', assignRandomValues);
+                    //   let generateButton = document.getElementById('generateButton');
+                      // Add event listener to the button for click event
+                    //   generateButton.addEventListener("click", assignRandomValues);
+                      let messageElement = document.getElementById("message");
 //Arrays
 
 //Adjectives
@@ -91,12 +97,6 @@ let naughtyMessage = "";
 let selfAffirmationOne = "";
 let selfAffirmationTwo = "";
 
-                      // Get references to the button and paragraph element
-                    //   let generateButton = document.getElementById('generateButton');
-                      // Add event listener to the button for click event
-                    //   generateButton.addEventListener("click", assignRandomValues);
-                      let messageElement = document.getElementById("message");
-
 //Functions
 
 //Message Selection by random number
@@ -110,7 +110,7 @@ function messageSelection() {
  * For some cases, two different random values are assigned, while for others only one is needed.
  *
  */
-document.getElementById('generateButton').addEventListener('click', function assignRandomValues(mixedMessagesArr) {
+function assignRandomValues() {
       
     mixedMessagesArr.forEach((arr, index) => {
         let randomIndex1 = Math.floor(Math.random() * arr.length);
@@ -231,6 +231,6 @@ document.getElementById('generateButton').addEventListener('click', function ass
                 messageElement.textContent = selfAffirmationTwo; // Set the generated message content to the paragraph element
                 break;
         };
-});
+};
 // Call the function with your array of arrays
 // assignRandomValues(mixedMessagesArr);
