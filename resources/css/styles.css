@@ -1,12 +1,13 @@
 *{
-	margin: 0px;
+	margin: 10px;
 	padding: 0px;
 	box-sizing: border-box;
 };
 
 body {
-    background-color: green;
+    background: green;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     
@@ -27,7 +28,7 @@ p {
 .button-92 { 
     --c: #fff; /* text color */ 
     --_p: 100%; /* define the variable */
-    background: linear-gradient(90deg, rgba(0,0,0,0) 33%, #fff5 67%, rgba(0,0,0,0)) var(--_p)/300% no-repeat, #004dff; /* background color */ 
+    background: linear-gradient(90deg, rgba(0,0,0,0) 33%, #fff5 67%, rgba(0,0,0,0)) var(--_p)/300% no-repeat, #338c03; /* background color */ 
     color: var(--c); /* use the variable for color */
     border: none; 
     transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1))); 
