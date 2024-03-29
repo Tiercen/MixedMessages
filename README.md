@@ -37,4 +37,4 @@ I am developing this with the intent of using the JavaScript on a web page with 
 - [mixedMessages.js](https://www.codecademy.com/workspaces/660588b0b846a99dc687fa86)
 
 # HTML Interface
-[mixedMessages.html](mixedMessages.html)
+- [mixedMessages.html](mixedMessages.html)
