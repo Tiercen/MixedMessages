@@ -5,12 +5,7 @@
 };
 
 body {
-    background: green;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+    min-height: 100vh;
 }
 
 h1{
@@ -23,6 +18,13 @@ p {
     font-style: italic;
     color: darkgrey;
 }
+
+.main-content { 
+    display: flex;
+    flex-direction: column;
+    background: #00a313;
+    align-items: center;
+    justify-content: center;
 
 /* CSS */
 .button-92 { 
