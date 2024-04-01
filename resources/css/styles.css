@@ -1,5 +1,5 @@
 body{
-    font-size: 3rem ;
+    font-size: 2em ;
     background-color: darkgreen;
     color: darkgray;
     min-height: 100vh;
@@ -9,8 +9,18 @@ body{
     justify-items: center;
  }
  
- p{
-     margin: 50px;
+ #message{
+     margin: 0 .85em;
+     padding: .5em;
+     background-color: purple;
+     border: 1x solid black;
+     border-radius: .75em;
+ }
+ 
+ .str{
+     font-size: .5em;
+     color: azure;
+     
  }
  
  .button-92{
@@ -28,7 +38,3 @@ body{
      justify-content: center;
      padding: .3em;
  };
- 
- 
- 
- 
