@@ -6,6 +6,10 @@
                       // Add event listener to the button for click event
                     //   generateButton.addEventListener("click", assignRandomValues);
                       let messageElement = document.getElementById("message");
+                      //This looks at the check box on the html page
+                      document.getElementById('myCheckbox').addEventListener('change', function() {
+                        wantNaughty = this.checked;
+                    });
 //Arrays
 
 //Adjectives
@@ -87,7 +91,7 @@ let affirmationActionOne = "";
 let affirmationActionTwo = "";
 let closing = "";
 let naughtyClosing = "";
-let wantNaughty = true;
+let wantNaughty = false;
 let messageSelect;
 
 //Message Templates
@@ -101,8 +105,16 @@ let selfAffirmationTwo = "";
 
 //Message Selection by random number
 function messageSelection() {
-    return Math.floor(Math.random() * 5)
-}
+    let checkSelection = Math.floor(Math.random() * 5)
+    if  (wantNaughty === false && checkSelection === 2)  {
+        while (checkSelection === 2) {
+            checkSelection  = Math.floor(Math.random() * 5)
+        }
+        return  checkSelection; 
+    } else  {
+        return checkSelection;
+    }
+};
 
 /**
  * This function assigns random values from the provided array to various variables.
@@ -209,6 +221,7 @@ function assignRandomValues() {
         // call the messageSelection Function to choose which to display
         messageSelect = messageSelection();
         // console.log(messageSelect);
+
         switch(messageSelect) {
             case 0: // Selects a loving message to display to the console
                 // console.log(lovingMessage);
