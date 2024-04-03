@@ -38,3 +38,4 @@ I am developing this with the intent of using the JavaScript on a web page with 
 
 # HTML Interface
 - [mixedMessages.html](mixedMessages.html)
+- ![Image of the HTML version 1.0 of Mixed Messages](resources/img/html-mixedMessages-v1.png)
