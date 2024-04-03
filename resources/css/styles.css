@@ -1,6 +1,6 @@
 body{
     font-family: 'Irish Grover';
-    font-size: 2em ;
+    font-size: 1.5em ;
     background-color: darkgreen;
     color: darkgray;
     min-height: 100vh;
@@ -9,6 +9,10 @@ body{
     align-items: center;
     justify-items: center;
  }
+
+ h1{
+    padding: 0 .15em;
+}
  
  #message{
      margin: 0 .85em;
@@ -16,6 +20,7 @@ body{
      background-color: purple;
      border: 1x solid black;
      border-radius: .75em;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
  
  .str{
@@ -29,6 +34,7 @@ body{
      width: 25vw;
      border-radius: 100vw;
      font-size: 1em;
+     font-family: 'Irish Grover';
  }
  .main-content { 
      display: flex;
@@ -39,3 +45,17 @@ body{
      justify-content: center;
      padding: .3em;
  };
+
+ .userInput{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center; 
+    justify-content: center;
+}
+
+#myCheckbox{
+    transform: scale(3); /* Change the size here */
+    margin: 2em;
+};
