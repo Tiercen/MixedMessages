@@ -20,7 +20,7 @@ body{
 }
  
  #message{
-     margin: 0 .85em;
+     margin: 1em .85em;
      padding: .5em;
      background-color: purple;
      border: 1px solid black;
