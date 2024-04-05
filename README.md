@@ -26,11 +26,11 @@ I am developing this with the intent of using the JavaScript on a web page with 
 2. mixed-messages.js
     - Console version
     - node mixed-messages.js in git bash will execute
-    - ![Image of GitBash running script](resources/img/gitBash_mixed-messages.png)
+    - ![Image of GitBash running script](./resources/img/gitBash_mixed-messages.png)
 
 # Detailed Documentation
 
-- [Design Documentation](Documentation/design.md)
+- [Design Documentation](./Documentation/design.md)
 
 # Codecademy WorkSpace
 
@@ -38,4 +38,5 @@ I am developing this with the intent of using the JavaScript on a web page with 
 
 # HTML Interface
 - [mixedMessages.html](mixedMessages.html)
-- ![Image of the HTML version 1.0 of Mixed Messages](resources/img/html-mixedMessages-v1.png)
+- ![Image of the HTML version 1.0 of Mixed Messages](./resources/img/html-mixedMessages-v1.png)
+- ![Image of the HTML version 2.0 of Mixed Messages](./resources/img/html-mixedMessages-v2.png)
